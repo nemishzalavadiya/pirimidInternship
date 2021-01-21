@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #bounce {
+                padding: 10px 15px;
+                background-color: powderblue;
+                border-radius: 5px;
+                margin-left: 10px;
+            }
+            #bounce:hover{
+                padding: 12px 17px;
+                background-color: lightblue;
+                margin-left: 2px;
+                box-shadow: 2px 3px black;
+            }
+            #bounce:active{
+                padding: 10px 17px;
+                background-color:aqua;
+            }
+        </style>
+    </head>
+<script src="debounce.js"></script>
+    <body>
+        <h3 style = "left: 50%;"> Good Morning <button id="clearScreen" onclick="console.clear()">Clear</button> </h3> 
+        <button id="bounce" onclick="debounceResult()">Debounce</button>
+        
+    </body>
+</html>
