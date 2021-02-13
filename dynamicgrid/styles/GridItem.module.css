@@ -1,0 +1,14 @@
+.grid-item-header {
+    padding-bottom: 10px;
+    font-size: medium;
+    font-weight: bold;
+    border-bottom: 2px dotted black;
+}
+
+.grid-item {
+    font-size: small;
+}
+
+.item {
+    margin: 2px 10px 2px 0;
+}
