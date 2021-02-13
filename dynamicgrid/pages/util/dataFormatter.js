@@ -10,7 +10,7 @@ export default function dataFormatter(data){
     }
 
     getKeys(data['data'][0]).forEach((header)=>TradeHistory.header.push(header));
-    Object.keys(data['data']).map((row)=>{
+    data['data'].map((row)=>{
         let values=[];
         getKeys(row).map((key)=>values.push(row[key]));
         TradeHistory.data.push(values);
