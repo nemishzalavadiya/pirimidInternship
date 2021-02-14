@@ -1,0 +1,5 @@
+<svg version="1.1" width="3000" height="2000" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 230 80
+           A 45 45, 0, 1, 0, 275 125
+           L 275 80 Z" fill="red" />
+</svg>

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/GridItem.module.css';
+import styles from '../../styles/GridItem.module.css';
 import { v4 as uuidv4 } from 'uuid';
 export default function GridItem(props) {
   return (function (){
