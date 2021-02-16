@@ -12,10 +12,10 @@ export default function GridContainer(props) {
     <div className="ui horizontal divider" style={{color:'#fff'}}>{props.title}</div>
       {props.data.map((row) => {
         return (
-          <div className="ui row segment" style={{height:'20vh',padding:'5vh 2vh 5vh 2vh',backgroundColor:'rgb(33, 33, 33)',color:'#fff'}}>
+          <div className="ui row segment" style={{height:'20vh',padding:'5vh 2vh 5vh 2vh',backgroundColor:'rgb(33, 33, 33)',color:'#fff',cursor:'pointer'}}>
             {row.map((item,index) => (
                 index!=0?           
-                 <div className="column"><div style={{fontSize:'x-small'}}>{props.headerNames[index]}</div>{item}{" "}{conditionalDisplay(item)}  </div>
+                 <div className="ui right floated column"><div style={{fontSize:'x-small'}}>{props.headerNames[index]}</div>{item}{" "}{conditionalDisplay(item)}  </div>
                 :<div className={`six wide column`}>{item}</div>
             ))}
           </div>
