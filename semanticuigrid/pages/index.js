@@ -41,12 +41,23 @@ export default function Home() {
     ["Oracle", "Stock", 166, "109,090"],
     ["Microsoft", "Stock", 166, "109,090"],
   ];
-
   return (
     <>
-      <div style={{ backgroundColor: "black" }}>
-        <GridContainer data={Data} headerNames={HeaderName} title={'Watchlist'}/>
-        <GridContainer data={DataPosition} headerNames={HeaderNamePosition} title={'Position'} />
+      <div style={{ backgroundColor: "black", overflow: "scroll",display:"flex",flexDirection:"row" }}>
+        <div className="sideBar" style={{width:'100vh',height:'100vh',color:'white '}}></div>
+        <div>
+          <GridContainer
+            data={Data}
+            headerNames={HeaderName}
+            title={"Watchlist"}
+          />
+          <GridContainer
+            data={DataPosition}
+            headerNames={HeaderNamePosition}
+            title={"Position"}
+          />
+        </div>
+        <div className="sideBar" style={{width:'100vh',height:'100vh',color:'white '}}></div>
       </div>
     </>
   );
