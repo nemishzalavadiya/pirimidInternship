@@ -1,0 +1,105 @@
+
+--------------------------------------------------------------------------------------------------------------------------------
+												Whole Team Together [ Last Moment Work ]
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+											[   Preliminary Pages   ]
+
+i - Title Page: This page includes the approved title for the report with necessary details. (see Appendix A)
+
+ii – Certificate: This page includes the approved title for the report with necessary details. (see Appendix B)
+
+iii - Acknowledgements: This page should acknowledge and/or thank individuals for their assistance and may cite reasons for the 	study.
+iv - Table of Contents: Titles and subtitles are to correspond exactly with those in the text.(See sample at the end of this 		write-up.)
+
+v - List of Tables or Figures: This is separate from the Table of Contents. The tables/figures
+	are numbered in the order in which they appear. Titles are to correspond exactly with those in
+	the text.
+
+vi - List of Illustrations: This is also a separate page. Illustrations are numbered in the order
+	in which they appear in the entire project, not within each chapter or appendix. Again, Titles
+	must correspond exactly with those in the text.
+
+											
+## Member Name --> it mentions who is working on this section
+--------------------------------------------------------------------------------------------------------------------------------
+Member Name: 
+--------------------------------------------------------------------------------------------------------------------------------
+											[    Body Of Project      ]
+
+	Chapter 1. Introduction
+				Introduce pirimid fintech llp
+				show it dose and what solution it provides.
+				( Utilize slides they shared with us on first day briefing )
+
+
+	Chapter 2. Pirimid Trading Platform
+
+				2.1. Introduction --> project related intro( what are the problems, what problems will be solved by this project )
+				2.2. AIM 
+				2.3. Features
+				2.4. Workflow of the System 
+
+--------------------------------------------------------------------------------------------------------------------------------
+Member Name: 
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+	Chapter 3. Analysis and Design ( sequence, class diagram in case of	OOdesign, Activity)
+
+				3.1 High level design --> expexted to show diagram of request response flow of whole system
+											( Include CI/CD pipeline in diagrame throw GitLab for production grade delivery )
+				3.2 Sequeance diagram ( add diagrams which we created for prices flow and create flows which is for buying 			stocks and it's execution process )
+
+--------------------------------------------------------------------------------------------------------------------------------
+Member Name: 
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+	Chapter 4. Design ( Database, Front-end interface, validations, application navigation )
+
+				4.1 UI mocks  ( only add important screens to the user )
+				4.2 Database design ( add schema which we created )
+
+--------------------------------------------------------------------------------------------------------------------------------
+Member Name: 
+--------------------------------------------------------------------------------------------------------------------------------
+
+	Chapter 5. Implementation and Testing
+
+				5.1 Implementation
+					( show which techlogies have been used and some explination why we used it, what feature it provides )
+				5.2 Testing
+					( mention unit testing and integration testing )
+					( show front-end testing with Chai, Mocha, back-end testing Mockito and springboottest )
+					( show some codes images )
+
+	Chapter 6. Future Extensions.
+
+				Add as your knowledge of out application
+
+
+											[    Appendix             ]
+
+	The Appendix contains material which is of interest to the reader but not an integral part of the report. If
+
+
+											[    Bibliography         ]
+
+	it's consisting of references to original literature relevant to the area of inquiry.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+													THE END
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+	NOTE:  
+		1. create separate DOC file for all chapters
+		2. make sure you follow BSB sirs guidlines
